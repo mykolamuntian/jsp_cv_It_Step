@@ -23,7 +23,7 @@
 
 
 <div class="container">
-    <h1>Pleas fill the next form</h1>
+    <h1>Please fill the next form</h1>
 
     <form action="result.jsp">
         <div class="block">
@@ -134,10 +134,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" name="Remove Language">
+                            <input type="button" id="remove_prog_lang" value="Remove Language">
                         </td>
                         <td>
-                            <input type="button" name="Add Language">
+                            <input type="button" id="add_prog_lang" value="Add Language">
                         </td>
                     </tr>
                 </table>
@@ -184,19 +184,21 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="button" name="Remove Language">
+                            <input type="button" id="remove_lang" value="Remove Language">
                         </td>
                         <td>
-                            <input type="button" name="Add Language">
+                            <input type="button" id="add_lang" value="Add Language">
                         </td>
                     </tr>
                     <tr>
                         <td>Driver's License</td>
                     </tr>
                     <tr>
-                        <td><label>A<input type="checkbox" name="cat_A" value="A"></label></td>
-                        <td><label>B<input type="checkbox" name="cat_B" value="B"></label></td>
-                        <td><label>C<input type="checkbox" name="cat_C" value="C"></label></td>
+                        <td>
+                            <label>A<input type="checkbox" name="cat_A" value="A"></label>
+                            <label>B<input type="checkbox" name="cat_B" value="B"></label>
+                            <label>C<input type="checkbox" name="cat_C" value="C"></label>
+                        </td>
                     </tr>
                 </table>
             </fieldset>

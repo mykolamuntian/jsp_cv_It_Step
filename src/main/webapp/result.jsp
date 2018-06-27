@@ -13,5 +13,6 @@
 <body>
     <h1>Result</h1>
     <p><%=request.getParameter("first_name")%></p>
+
 </body>
 </html>
