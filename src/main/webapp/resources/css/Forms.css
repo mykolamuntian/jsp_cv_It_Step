@@ -76,3 +76,8 @@ margin: 20px 0 0 1px;
 .animals{
     margin-right: 5px;
 }
+
+.result{
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+}
